@@ -16,9 +16,7 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  key1 = key
-  value1 = value
-  hash1 = {:key1 => "#{value}"}# return a hash that includes the key and value parameters passed into this method
+  hash1 = {key => value}# return a hash that includes the key and value parameters passed into this method
 end
 
 def read_from_hash(hash, key)
