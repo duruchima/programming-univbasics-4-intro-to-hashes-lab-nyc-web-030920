@@ -18,7 +18,7 @@ end
 def my_hash_creator(key, value)
   key1=key
   value1=value
-  hash = {:key1 => value1}# return a hash that includes the key and value parameters passed into this method
+  hash = {:key1 => "#{value1}"}# return a hash that includes the key and value parameters passed into this method
 end
 
 def read_from_hash(hash, key)
